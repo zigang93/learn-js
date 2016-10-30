@@ -1,1 +1,3 @@
-alert('my alert');
+var a = "zigang";
+
+alert(a.length);

@@ -1,8 +1,16 @@
+/* this is my body */
 body {
   font: 18px Helvetica, sans-serif;
   background-color: #eee; }
 
+/* this is my class style */
 .me {
   color: #183D89; }
+
+/* this is small media screen */
+@media screen and (max-width: 500px) {
+  body {
+    width: 100px;
+    background-color: #183D89; } }
 
 /*# sourceMappingURL=style.css.map */
