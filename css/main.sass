@@ -2,11 +2,20 @@ $font-stack:    Helvetica, sans-serif
 $primary-color: #eee
 $second-color: #183D89
 $font-body: 18px
+$break-small: 500px
 
-//this is my body
+/* this is my body */
 body
   font: $font-body $font-stack
   background-color: $primary-color
 
+
+/* this is my class style */
 .me
   color: $second-color
+
+/* this is small media screen */
+@media screen and (max-width: $break-small)
+  body
+    width: 100px
+    background-color: $second-color
